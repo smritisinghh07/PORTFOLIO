@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(5, 5, 5);
+    color: rgb(6, 0, 0);
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+.first{
+    width:100%;
+    display: flex; 
+    justify-content:space-around ;
+}
+.left{
+    font-size: 2em;
+    font-weight: bolder;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color:rgb(235, 112, 159);
+    
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    font-size: 20px;
+
+
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 3%;
+    background-color:rgb(216, 172, 228);
+    width: 65%;
+    border-radius: 3px;
+    border: 1.5px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.leftsubsection{
+    width: 65%;
+    padding: 15px;
+    
+    
+}
+.leftsection{
+    font-size: 3rem;
+    margin: 20px 0;
+}
+.image{
+    
+    border-radius: 20px;
+    border: 3px solid black;
+
+    
+    
+}
+header nav ul li:hover{
+    color: rgb(0, 1, 8);
+}
+h1{
+    font-size:40px ;
+}
+p{
+    font-size: 30px;
+}
+.rightsection{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.skills{
+    background-color: rgb(216, 172, 228);
+    color:rgb(5, 5, 5);
+    width: 90%;
+    margin: 80px 3%;
+    font-size: 20px;
+    height: fit-content;
+    border: 1.5px solid rgb(12, 12, 12);
+
+}
+.tech{
+    padding: 0px 5px;
+
+}
+.lang{
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 4px;
+
+}
+.lang li{
+    list-style:none;
+    background-color:white;
+    width: fit-content;
+    border-radius: 4px;
+    text-align: center;
+    margin:5px 10px;
+
+    
+}
+li>span{
+    padding: 8px;
+
+}
+.superskills{
+    width: 30%;
+}
+.nontech{
+    background-color: rgb(216, 172, 228);
+    width: 90%;
+    margin: 80px 3.33%;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.thirdsection{
+    background-color: rgb(202, 69, 69);
+    width:50%;
+    margin: 15px;
+    border: 2px solid black;
+    position: relative;
+    
+}
+.educ{
+    text-align: center;
+    font-size: larger;
+}
+.img{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+
+    
+}
+.edu{
+    margin-left: 10px;
+
+}
+.certi{
+    background-color: rgb(127, 212, 255);
+    width: 25%;
+}
+.second{
+   
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.secondsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 3%;
+    background-color:rgb(216, 172, 228);
+    width: 50%;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: relative;
+}
+.imagesec{
+    position: absolute;
+    right: 2.5%;
+    top: 37%;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.certify{
+    width: 45%;
+}
+.certification{
+    
+        background-color:rgb(216, 172, 228);
+        color:rgb(12, 12, 12);
+        width: 90%;
+        margin: 40px 2.33%;
+        font-size: 20px;
+        height: fit-content;
+        border: 2px solid black;
+        padding: 10px;
+        border-radius: 3px;
+}
+.cert{
+    padding-left: 25px;
+
+}
+.cert>ul{
+    padding: 20px 0;
+}
+.cert li{
+    margin: 15px;
+
+
+}
+.thirdsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 20%;
+    background-color:rgb(216, 172, 228);
+    width: 60%;
+    border-radius: 5px;
+    border: 2px solid black;
+    
+    
+
+}
+.blue{
+    display: block;
+
+}
+.imagethird{
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.social{
+    color: white;
+}
